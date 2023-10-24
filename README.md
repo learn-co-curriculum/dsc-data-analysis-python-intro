@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this section, you'll continue solidifying your knowledge of Python programming, descriptive statistics, and data visualization by performing key data analysis tasks. You will learn how to load data from CSV and JSON files into Python objects in memory, and wrap up with an analysis that joins together two datasets.
+In this lesson, you'll continue solidifying your knowledge of Python programming, descriptive statistics, and data visualization by performing key data analysis tasks. You will learn how to load data from CSV and JSON files into Python objects in memory, and wrap up with an analysis that joins together two datasets.
 
 ## Base Python
 
@@ -10,7 +10,7 @@ When we say "base Python", this means that we are emphasizing the data types and
 
 ### Python Data Types and Control Structures
 
-In this section, our data is stored in data structures that are built into the Python language: numbers, strings, lists, dictionaries, etc. For example, if we have this table of data:
+In this lesson, our data is stored in data structures that are built into the Python language: numbers, strings, lists, dictionaries, etc. For example, if we have this table of data:
 
 | color  | number |
 | ------ | ------ |
@@ -51,7 +51,7 @@ for row in info_table:
     orange
 
 
-In later sections of this course, that same task (printing the list of colors) might look something like this, using the `pandas` library:
+As more knowledge is gained, that same task (printing the list of colors) might look something like this, using the `pandas` library:
 
 
 ```python
@@ -82,7 +82,7 @@ In the base Python example, we had a variable `info_table` which was type `list`
 
 Then to print out the colors, in the base Python example we had a `for` loop and then code to extract the information from each individual dictionary. The string values got printed out without any additional markup. Then in the pandas example we did not have to use a loop (hint: this is *broadcasting* like we saw previously with NumPy) and also we had some extra markup where it printed out the index values as well as `Name: color, dtype: object`.
 
-In this section you will practice performing data analysis with the first (base Python) format, before eventually learning how to use pandas instead.
+In this lesson you will practice performing data analysis with the first (base Python) format, before eventually learning how to use pandas instead.
 
 ### Python Modules
 
@@ -100,7 +100,7 @@ import json
 
 While trivial example data structures like the one above can be declared directly in Python code, more realistic data comes in the form of a file on disk.
 
-In this section you will practice opening data files that use the CSV and JSON formats, then loading them into sensible objects using the `csv` and `json` libraries in order to perform additional analysis.
+In this lesson you will practice opening data files that use the CSV and JSON formats, then loading them into sensible objects using the `csv` and `json` libraries in order to perform additional analysis.
 
 ### CSV Files
 
@@ -221,8 +221,8 @@ with open("data/twitter_graph.json") as f:
 
 You can continue using NumPy and Matplotlib as you see fit. For example, if you want to convert a base Python list into a NumPy array because it will help you perform some descriptive analysis task, that is not an issue. You will also need to use Matplotlib in the lessons ahead to create the required visualizations.
 
-The main library that you will *not* be using extensively is `pandas`, which will be introduced in a future section.
+
 
 ## Summary
 
-In this section you will learn how to load and manipulate CSV and JSON datasets using base Python. This means that we will mainly be using the data structures and modules built into Python, rather than third-party libraries. We also walked through some examples of the kinds of analysis you will be able to perform by the end of this section.
+In this lesson you will learn how to load and manipulate CSV and JSON datasets using base Python. This means that we will mainly be using the data structures and modules built into Python, rather than third-party libraries. We also walked through some examples of the kinds of analysis you will be able to perform by the end of this lesson.
